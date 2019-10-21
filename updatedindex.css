@@ -1,0 +1,295 @@
+html {
+  background: black;
+}
+body {
+  padding: 0;
+  min-width: 1100px;
+  background: white;
+  color: #afafaf;
+  font-family: arial;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*navigation bar*/
+nav {
+  width: 100%;
+  overflow: auto;
+  background: white;
+}
+.navbar {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+.floatnav {
+  float: left;
+}
+.logo {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 50px;
+  height: 80px;
+}
+nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-align: center;
+  color: #afafaf;
+  margin-left: 10px;
+  font-size: 20px;
+}
+nav a:hover {
+  background: #c4c48e;
+}
+.button1 {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 31px;
+  text-decoration: none;
+  margin: 1px 10px 20px 0px;
+}
+.button1:hover {
+  background-color: rgb(78, 136, 12);
+}
+.margin-l {
+  margin-left: 80px;
+}
+/*First background picture and Button2*/
+.picture2 {
+  width: 100%;
+  height: 500px;
+}
+.centered1 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  color: white;
+  font-size: 40px;
+}
+.centered2 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.button2 {
+  background: rgb(7, 90, 7);
+  font-size: 20px;
+  margin-top: 200px;
+  border: green;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+.button2:hover {
+  background: gray;
+}
+/*icon house and text*/
+.icon {
+  margin-left: 570px;
+  padding-left: 20px;
+}
+.boldline {
+  text-align: center;
+  color: #4d4d4d;
+}
+.text-align-c {
+  text-align: center;
+}
+.margin {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*Three numbers align*/
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 100px 100px;
+}
+li {
+  display: inline;
+  padding-left: 30px;
+  font-size: 30px;
+}
+.number {
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  border: 2px solid green;
+  background: green;
+}
+/*Glasses icon*/
+.container {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.imgbox {
+  margin: 25px 20px;
+}
+/*Sofa, wallet blocks*/
+.button4 {
+  color: white;
+  border: 2px solid blue;
+  border-radius: 8px;
+  background: blue;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.button5 {
+  color: white;
+  border: 2px solid green;
+  border-radius: 8px;
+  background: green;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.button4:hover {
+  background: #80cad3;
+}
+.button5:hover {
+  background: #8fd380;
+}
+.containertwo {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.imgtext1 {
+  margin: 20px 40px;
+}
+.imgtext2 {
+  margin: 10px 20px;
+}
+/*Aligned text and button*/
+.button6 {
+  background: transparent;
+  border: 1px solid #6e7683;
+  border-radius: 8px;
+  padding: 15px 15px;
+  float: right;
+  margin-top: 65px;
+  margin-left: 200px;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+}
+.button6:hover {
+  background: #aab6ca;
+}
+.container4 {
+  display: flex;
+  margin-top: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.strong {
+  color: #505048;
+}
+/*Three blocks city-picture-text*/
+.container8 {
+  box-sizing: border-box;
+}
+.threeblocks {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.margin-left {
+  margin-left: 80px;
+}
+.border {
+  border: 1px solid transparent;
+}
+.border-radius {
+  border-radius: 8px;
+}
+.backgroundcolor {
+  background: #d6e2e4;
+}
+/*Second background picture with 2 Backhams*/
+.green {
+  color: #3c713c;
+}
+.white {
+  color: #dedede;
+}
+.center-top {
+  position: absolute;
+  top: 2400px;
+  left: 25%;
+}
+.backgroundpic {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.Backhamone {
+  position: absolute;
+  top: 2750px;
+  left: 200px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.Backhamtwo {
+  position: absolute;
+  top: 2750px;
+  left: 800px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.Davidone {
+  position: absolute;
+  top: 2800px;
+  left: 24%;
+  color: #c4c4c4;
+}
+.Davidtwo {
+  position: absolute;
+  top: 2800px;
+  left: 68%;
+  color: #c4c4c4;
+}
+.Dialogone {
+  border: 2px solid black;
+  border-radius: 8px;
+  background: white;
+  width: 240px;
+  height: 150px;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  top: 2570px;
+  left: 18%;
+}
+.Dialogtwo {
+  border: 2px solid black;
+  border-radius: 8px;
+  background: white;
+  width: 240px;
+  height: 150px;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  top: 2570px;
+  left: 62%;
+}
+/*Footer part*/
+.footerimg {
+  display: flex;
+}
+.margin-left {
+  margin-left: 100px;
+}
+.copyright {
+  text-align: center;
+}
